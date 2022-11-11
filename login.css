@@ -8,13 +8,11 @@ html {
 
 .header {
     font-size: 50px;
-    color:red;
+
 } 
 
 .name {
     font-size: 25px;
-
-
 }
 
 .btn-btn-full {
@@ -24,7 +22,26 @@ html {
 
 .form1 {
     background-color:maroon;    
-    padding: 55px;
+    padding: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 200px;
     
-    
+}
+
+.pic1 {
+    margin-left: 100px;
+    float: left;
+ 
+}
+.founder {
+    font-size: 30px;
+}
+
+.caption {
+    margin-left: 100px;
+    background-color: maroon;
+    height: 500px;
+    margin-right: 100px;
 }
