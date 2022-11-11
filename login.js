@@ -41,3 +41,9 @@ function check(a,b)
 var  names = [];
 var  user_names = [];
 var  passwords = [];
+
+
+// window.onload = function() {
+//     localStorage.setItem("name", $('#inputName').val());
+//     localStorage.setItem("email", $('#inputEmail').val());   
+// }

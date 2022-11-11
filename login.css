@@ -24,11 +24,21 @@ html {
     font-size: 35px;
 }
 
+div h3{
+    font-size: 35px;
+}
+
 .form1 {
     display: flex;
     justify-content:space-between;
     flex-direction: column;
     
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+   width: 350px;
 }
 
 .head {
