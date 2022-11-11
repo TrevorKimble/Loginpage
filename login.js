@@ -1,19 +1,40 @@
 function add_info(input)
 {
-    console.log(document.getElementById("name").value);
-    console.log(document.getElementById("email").value);
-    console.log(document.getElementById("password").value);
-   
-    names.push(document.getElementById("name").value);
-    user_names.push(document.getElementById("email").value);
-    passwords.push(document.getElementById("password").value);
+    let pass = true;
+    let a = document.getElementById("name").value;
+    let b = document.getElementById("email").value;
+    let c = document.getElementById("password").value;
+    console.log(pass);
+    pass = check(a,b);
+    console.log(pass);
+    if(pass === true)
+    {
+        names.push(a);
+        user_names.push(b);
+        passwords.push(c);
+    }
+    
 
     console.log(names,user_names,passwords);
 }
 
-function check()
+function check(a,b)
 {
-
+    console.log("test")
+    for(x = 0;x< names.length; x++)
+    {
+        if(a == names[x])
+        {
+            alert("Already taken");
+            return false;
+        }
+        if(b == user_names[x])
+        {
+            alert("Already taken");
+            return false;
+        }
+    }
+    return true;
 }
 
 
