@@ -1,20 +1,30 @@
 html {
-    background-image: url(https://static.vecteezy.com/system/resources/previews/002/395/537/original/abstract-blue-and-white-geometric-background-free-vector.jpg);
+    background-image: url(https://th.bing.com/th/id/R.4b4ef2302955db92cd1ec347542a60ba?rik=De4tmfL82FuB%2bg&riu=http%3a%2f%2fpre02.deviantart.net%2f0291%2fth%2fpre%2fi%2f2012%2f169%2f6%2f2%2f4_hd_flesh_textures_by_thatsavior-d53wxoy.jpg&ehk=2lYp2qN3VpPt8UYvS3Orfbtatc3GTx6v%2fuJ68FZXu3Q%3d&risl=&pid=ImgRaw&r=0);
     background-repeat: no-repeat;
+    
     background-size: cover;
 
 }
 
+.header {
+    font-size: 50px;
+    color:red;
+} 
+
 .name {
     font-size: 25px;
 
-}
-
-.password {
-
 
 }
 
-.email {
+.btn-btn-full {
 
+    font-size: 15px;
+}
+
+.form1 {
+    background-color:maroon;    
+    padding: 55px;
+    
+    
 }
