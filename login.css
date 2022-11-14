@@ -1,7 +1,7 @@
 #sign_up {
     background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Animal-Crossing-Doom-Eternal-Music-Video-The-Chalkeaters.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     
     /* Image links
     https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/a/animal-crossing-new-horizons-switch/hero 
@@ -28,7 +28,7 @@
 #log_in{
     background-image: url(https://cdn.mos.cms.futurecdn.net/iPKatp6VvEFwBwMeYXSwhR.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
     animation-name: example2;
     animation-duration: 20s;
@@ -42,9 +42,14 @@
     75% {background-image: url(https://media4.giphy.com/media/XZbAsygv5VTZ5oumfo/200.gif);}
     100% {background-image: url(https://78.media.tumblr.com/a353de452a2aa98cddeaf86834331ff1/tumblr_pde6c8ydHh1ulc5wto1_500.gif);}
 }
+
+body{
+    height: 100vh;
+}
+
 .head {
-    height: 1250px;    
-    opacity: 0.8;    
+    height: 100%;    
+    opacity: 0.6;    
 }
 
 .head:hover {
@@ -71,8 +76,10 @@
 }
 
 .btn-btn-full {
-    margin: 50px;
-    font-size: 35px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 20px;
 }
 
 div h3{
