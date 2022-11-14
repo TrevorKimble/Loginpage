@@ -1,7 +1,7 @@
 #sign_up {
     background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Animal-Crossing-Doom-Eternal-Music-Video-The-Chalkeaters.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     
     /* Image links
     https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/a/animal-crossing-new-horizons-switch/hero 
@@ -10,12 +10,37 @@
     https://cdn.mos.cms.futurecdn.net/mJ7FumhycZqdABnhavKCFf.jpg
 
     */
+
+    animation-name: example;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example {
+    0% {background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Animal-Crossing-Doom-Eternal-Music-Video-The-Chalkeaters.jpg);}
+    25% {background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Animal-Crossing-Doom-Eternal-Music-Video-The-Chalkeaters.jpg);}
+    50% {background-image: url(https://media.tenor.com/GBLXBbXWOmsAAAAd/doom-eternal.gif);}
+    75% {background-image: url(https://cdn.mos.cms.futurecdn.net/xYefyCZHZq9wogNZSqq59G.jpg);}
+    100% {background-image: url(https://steamuserimages-a.akamaihd.net/ugc/951830941729766947/977EC2C7D6E6CEF7B213060373AADED4E897B3EF/?imw=480&imh=270&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);}
 }
 
 #log_in{
     background-image: url(https://cdn.mos.cms.futurecdn.net/iPKatp6VvEFwBwMeYXSwhR.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+
+    animation-name: example2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+    0% {background-image: url(https://cdn.mos.cms.futurecdn.net/mJ7FumhycZqdABnhavKCFf.jpg);}
+    25% {background-image: url(https://cdn.mos.cms.futurecdn.net/mJ7FumhycZqdABnhavKCFf.jpg);}
+    50% {background-image: url(https://giffiles.alphacoders.com/215/215806.gif);}
+    75% {background-image: url(https://media4.giphy.com/media/XZbAsygv5VTZ5oumfo/200.gif);}
+    100% {background-image: url(https://78.media.tumblr.com/a353de452a2aa98cddeaf86834331ff1/tumblr_pde6c8ydHh1ulc5wto1_500.gif);}
 }
 .head {
     height: 1250px;    

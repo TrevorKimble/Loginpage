@@ -13,24 +13,20 @@ function add_info(input)
         user_names.push(b);
         passwords.push(c);
     }
-    
-
-    console.log(names,user_names,passwords);
 }
-
 function check(a,b)
 {
     console.log("test")
-    for(x = 0;x< names.length; x++)
+    for(x = 0; x < names.length; x++)
     {
         if(a == names[x])
         {
-            alert("Already taken");
+            alert("Username already taken");
             return false;
         }
         if(b == user_names[x])
         {
-            alert("Already taken");
+            alert("Email already taken");
             return false;
         }
     }
@@ -42,8 +38,3 @@ var  names = [];
 var  user_names = [];
 var  passwords = [];
 
-
-// window.onload = function() {
-//     localStorage.setItem("name", $('#inputName').val());
-//     localStorage.setItem("email", $('#inputEmail').val());   
-// }
