@@ -49,7 +49,8 @@ body{
 
 .head {
     height: 100%;    
-    opacity: 0.6;    
+    opacity: 0.6;
+    padding: 50px;        
 }
 
 .head:hover {
@@ -58,6 +59,7 @@ body{
 
 .header {
     font-size: 40px;
+
     background: black;
 } 
 
