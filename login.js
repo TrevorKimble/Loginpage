@@ -4,6 +4,7 @@ function add_info(input)
     let a = document.getElementById("name").value;
     let b = document.getElementById("email").value;
     let c = document.getElementById("password").value;
+    let d = document.getElementById("birthday").value;
     console.log(pass);
     pass = check(a,b);
     console.log(pass);
