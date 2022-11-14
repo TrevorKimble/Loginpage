@@ -77,9 +77,13 @@ body{
 
 .btn-btn-full {
     height: 30px;
-    width: 100px;
+    width: 185px;
     border-radius: 20px;
     font-size: 20px;
+    margin-top: 80px;
+    margin-left: 175px;
+    background-color:cadetblue;
+    font-weight: bolder;
 }
 
 div h3{
