@@ -17,16 +17,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.head {
+    height: 1250px;    
+    opacity: 0.8;    
+}
+
+.head:hover {
+    opacity: 1;
+}
 
 .header {
     font-size: 40px;
-    background-color: black;
+    background: black;
 } 
 
 .name {
     font-size: 35px;
     font-weight: bold;  
     background-color: black;
+
+
 }
 
 .email {
