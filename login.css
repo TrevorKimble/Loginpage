@@ -60,14 +60,15 @@ form div{
 
 .head {
     color: white;
-
-    margin-left: 100px;
+    background-color: black;
+    margin-left: 00px;
     margin-right: 100px;
-    margin-top: 20px;
-    margin-bottom: 100px;    
+    margin-top: 0px;
+    margin-bottom: 00px;    
     display: flex;
     flex-direction:column;
-    align-items: center;
+    align-items: left;
+    width: 500px;
 }
 .pic1 {
     margin-left: 100px;
