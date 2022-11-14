@@ -97,3 +97,10 @@ form div{
     height: 500px;
     margin-right: 100px;
 }
+
+.signin {
+    color: white;
+    width: 25%;
+    margin-left: 50px;
+    font-size: 25px;
+}
