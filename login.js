@@ -38,7 +38,7 @@ function log_in()
     let b = document.getElementById("email2").value;
     let c = document.getElementById("password2").value;
 
-    for(x = 0; x < 100; x++)
+    for(x = 0; x < names.length; x++)
     {
         if((a == names[x]) && (b == user_names[x]) && (c == passwords[x]))
         {
@@ -54,3 +54,5 @@ function log_in()
 var  names = [];
 var  user_names = [];
 var  passwords = [];
+
+
